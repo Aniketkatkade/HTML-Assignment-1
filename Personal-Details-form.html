@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+ <form action="/action">
+    
+    <p>Personal details</p>
+    <p>Salutation</p>
+  
+    <select name="Person">
+      <option value="mr">Mr.</option>
+      <option value="mrs">Mrs.</option>
+      <option value="none" selected>--None--</option>
+    </select>
+
+    <br>
+    <br>
+   
+
+    <div>
+        <label for="first">First Name :</label>
+        <input type="text" placeholder="abcd" id="first" name="first">
+    </div>
+    <br>
+    
+
+    <div>
+        <label for="last">Last Name :</label>
+        <input type="text" placeholder="abcd" id="last" name="last">
+    </div>
+    <br>
+
+    <div>
+        <label>Gender :</label>
+        <input type="radio" name="gender" id="m">
+        <label for="m">Male</label>
+        <input type="radio" name="gender" id="fm">
+        <label for="fm">Female</label>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email">
+    </div>
+    <br>
+
+    <div>
+        <label for="date">Date of birth :</label>
+        <input type="date" id="date" name="dob">
+    </div>
+    <br>
+
+    <div>
+        <label>Address :</label>
+        <br>
+        <textarea rows="5" cols="30" name="address"></textarea>
+    </div>
+    <br>
+
+    <button>submit</button>
+
+    
+
+ </form>
+
+ <pre>Thank you ....</pre>
+
+
+
+</body>
+</html>
